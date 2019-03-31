@@ -1,0 +1,51 @@
+==> umbrella_app_1
+Generated umbrella_app_1 app
+==> umbrella_app_2
+Generated umbrella_app_2 app
+==> umbrella_app_1
+
+
+  1) test the truth (UnitTest)
+     test/umbrella_app_1_test.exs:6
+     Assertion with == failed
+     code:  1 + 1 == 99
+     left:  2
+     right: 99
+     stacktrace:
+       test/umbrella_app_1_test.exs:7: (test)
+
+
+
+  2) test another failing test (UnitTest)
+     test/umbrella_app_1_test.exs:10
+     Assertion with == failed
+     code:  1 + 1 == 199
+     left:  2
+     right: 199
+     stacktrace:
+       test/umbrella_app_1_test.exs:11: (test)
+
+.
+
+Finished in 0.03 seconds
+3 tests, 2 failures
+
+Randomized with seed 925973
+==> umbrella_app_2
+
+
+  1) test the truth (UnitTest)
+     test/umbrella_app_2_test.exs:6
+     Assertion with == failed
+     code:  1 + 1 == 99
+     left:  2
+     right: 99
+     stacktrace:
+       test/umbrella_app_2_test.exs:8: (test)
+
+.
+
+Finished in 0.02 seconds
+2 tests, 1 failure
+
+Randomized with seed 980834
